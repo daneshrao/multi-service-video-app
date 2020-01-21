@@ -1,0 +1,53 @@
+a {
+    text-decoration: none;
+}
+
+.video-panel .row {
+    padding: 6px;
+}
+
+.video-body .card-body {
+    padding: 0rem 0rem 0rem 1.25rem;
+}
+
+#sticky-sidebar {
+    position: fixed;
+    max-width: 20%;
+    min-height: 100% !important;
+}
+
+/* #main{
+    overflow-y: auto;
+} */
+.form-check-inline{
+    margin-top: .75rem;
+}
+.search-container {
+    float: right;
+}
+
+.search-container input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    width: 24rem;
+    background: #efefef;
+}
+
+.search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+.search-container input[type=text]:hover{
+    background: #fff;
+}
+.search-container button:hover {
+    background: #ccc;
+}
