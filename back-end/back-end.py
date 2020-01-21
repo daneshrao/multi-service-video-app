@@ -41,7 +41,7 @@ def videourl(*args):
     return(json.dumps(mylist))
 
 
-@app.route('/api/v1/youtube', methods=['GET'])
+@app.route('/', methods=['GET'])
 def api_all():
     # search_str=request.args.get('search')
     search = request.args.get('search','')

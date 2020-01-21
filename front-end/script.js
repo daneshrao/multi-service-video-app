@@ -28,7 +28,7 @@ app.controller('myCtrl', function ($scope, $http, filterFilter) {
 
     $http({
         method: 'GET',
-        url: 'http://video-service:5001/api/v1/youtube/'
+        url: 'http://videoservice/'
     }).then(function successMethod(res) {
         $scope.video_tutorial_list = res.data;
         console.log("Data: " + res.data);
@@ -341,7 +341,7 @@ app.controller('myCtrl', function ($scope, $http, filterFilter) {
     $scope.videoSearch = function (val) {
         $scope.video_tutorial_list = [];
         console.log(val);
-        url = 'http://video-service:5001/api/v1/youtube?search=' + val
+        url = 'http://videoservice/?search=' + val
         alert(url);
         $http({
             method: 'GET',
